@@ -1,1 +1,2 @@
 usuario_07 vscode + terminal 
+usuario_08 vscode 
