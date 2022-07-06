@@ -1,1 +1,1 @@
-usuario_07 vscode 
+usuario_07 vscode + terminal 
