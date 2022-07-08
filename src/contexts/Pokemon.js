@@ -17,8 +17,8 @@ export default function PokemonProvider({children}){
         setPokemon(response.data.results)
     }
 
-    async function getPokemonByName(name){
-        let response = await pokeAPI.get(`pokemon/${name}`)
+    async function getPokemonByName(nameOrId){
+        let response = pokeAPI.get(`pokemon/${nameOrId}`)
         return response.data
     }
 
