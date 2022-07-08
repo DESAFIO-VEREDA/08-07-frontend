@@ -1,9 +1,11 @@
+import React from 'react';
 import './style.css'
+import Search from "./components/search.jsx"
 
 export const App = () => {
   return (
     <div>
-      <h1 className="globalContainer">Boa sorte, candidato!</h1>
+      <Search />
     </div>
   );
 }
