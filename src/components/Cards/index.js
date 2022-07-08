@@ -7,7 +7,8 @@ export const Cards = () => {
         {
             id: "1",
             name: "bulbassaur",
-            image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
+            image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+            types: "grass"
         },
         {
             id: "2",
@@ -50,7 +51,9 @@ export const Cards = () => {
                         <Card.Body>
                             <Card.Title>{data.name}</Card.Title>
                             <Card.Text>
-
+                                <ul>
+                                    <li>{data.types}</li>
+                                </ul>
                             </Card.Text>
                         </Card.Body>
                     </Card>
