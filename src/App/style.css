@@ -12,3 +12,11 @@
   display:grid;
   place-items:center;
 }
+
+.cardGroup{
+  display: grid;
+  justify-content: center;
+  column-gap: 20px;
+  row-gap: 20px;
+  grid-template-columns: auto auto auto auto;
+}

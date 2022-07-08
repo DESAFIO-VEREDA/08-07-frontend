@@ -1,11 +1,9 @@
-.cardGroup{
-    display: grid;
-    justify-content: center;
-    column-gap: 50px;
-    row-gap: 50px;
-    grid-template-columns: auto auto auto;
+.card {
+    display: flex;
+    border-radius: 3rem !important;
+    flex-direction: row !important;
 }
 
-.card {
-    border-radius: 1rem;
+.pokeImg {
+    width: 7rem !important;
 }
