@@ -22,6 +22,11 @@ export default function PokemonProvider({children}){
         return response.data
     }
 
+    async function getColor(id){
+        let response = await pokeAPI.get(`pokemon-species/${id}`)
+        return response.data
+    }
+
     return(
         <PokemonContext.Provider
             value={{
@@ -30,7 +35,8 @@ export default function PokemonProvider({children}){
                 setOffset,
                 limit,
                 setLimit,
-                getPokemonByName
+                getPokemonByName,
+                getColor
             }}
         >
             {children}
