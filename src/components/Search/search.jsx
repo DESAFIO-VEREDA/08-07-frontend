@@ -1,11 +1,12 @@
-import React from "react";
-import {Search} from "./styled.js"
+import React, {useContext} from "react";
+import {SearchInput} from "./styled.js"
+import PokemonContext from "../../contexts/Pokemon.js";
 
-export default function search() {
+export default function Search() {
     return (
-        <Search>
+        <SearchInput>
             <input type="text" id="textBusca" placeholder="Buscar"/>
             <img src="magnifying-glass.png" id="btnBusca" alt="Buscar"/>
-        </Search>
+        </SearchInput>
     )
 }
