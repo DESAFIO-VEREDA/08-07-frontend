@@ -6,7 +6,7 @@ export default function Search() {
     return (
         <SearchInput>
             <input type="text" id="textBusca" placeholder="Buscar"/>
-            <img src="magnifying-glass.png" id="btnBusca" alt="Buscar"/>
+            <img src="imagem/magnifying-glass.png" id="btnBusca" alt="Buscar"/>
         </SearchInput>
     )
 }

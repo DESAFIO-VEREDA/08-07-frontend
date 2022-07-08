@@ -13,6 +13,9 @@ export const App = () => {
  // console.log(pokemon);
   return (
     <BrowserRouter>
+            <Barra />
+            <Search />
+            <Titulo />
           <ul className='cardGroup'>
 
         {pokemon?.map((elemento) => {
@@ -23,9 +26,6 @@ export const App = () => {
           />)
         })}
           </ul>
-        <Barra />
-        <Search />
-        <Titulo />
     </BrowserRouter>
   )
 }
