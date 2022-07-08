@@ -13,12 +13,12 @@ export default function PokemonProvider({children}){
     },[offset])
 
     async function getPokemon(limit,offset){
-        let response = pokeAPI.get(`pokemon?limit=${limit}&offset=${offset}`)
-        setPokemon((await response).data.results)
+        let response = await pokeAPI.get(`pokemon?limit=${limit}&offset=${offset}`)
+        setPokemon(response.data.results)
     }
 
     async function getPokemonByName(name){
-        let response = pokeAPI.get(`pokemon/${name}`)
+        let response = await pokeAPI.get(`pokemon/${name}`)
         return response.data
     }
 
