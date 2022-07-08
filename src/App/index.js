@@ -1,5 +1,7 @@
+import React from 'react';
 import './style.css'
 import { BrowserRouter } from "react-router-dom";
+import Search from "../components/search"
 import PokemonContext  from '../contexts/Pokemon';
 
 export const App = () => {
@@ -11,6 +13,5 @@ export const App = () => {
         </div>
       </PokemonContext>
     </BrowserRouter>
-    
-  );
+  )
 }
