@@ -18,4 +18,3 @@ input{
     outline: 0;
     border: none;
 }`
-

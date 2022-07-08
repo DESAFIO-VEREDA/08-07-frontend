@@ -6,5 +6,5 @@ export default function barra() {
         <Barra>
             <img className="pokebola" src="imagem/pokeball-png.png" alt="pokebola" />
         </Barra>
-    )  
+    ) 
 }
