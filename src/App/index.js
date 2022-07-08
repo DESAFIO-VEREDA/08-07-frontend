@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css'
-import Search from "./components/search.jsx"
+import Search from "../components/search"
 
 export const App = () => {
   return (
