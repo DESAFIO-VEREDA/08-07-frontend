@@ -1,11 +1,11 @@
 import React from "react";
-import "./search.css";
+import {Search} from "./styled.js"
 
-export default search => {
+export default function search() {
     return (
-        <div className="search">
+        <Search>
             <input type="text" id="textBusca" placeholder="Buscar"/>
             <img src="magnifying-glass.png" id="btnBusca" alt="Buscar"/>
-        </div>
+        </Search>
     )
 }
