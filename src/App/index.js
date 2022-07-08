@@ -1,9 +1,11 @@
 import './style.css'
+import React, { useState } from 'react';
+import { Cards } from '../components/Cards';
 
 export const App = () => {
   return (
-    <div>
-      <h1 className="globalContainer">Boa sorte, candidato!</h1>
+    <div className='App'>
+      <Cards />
     </div>
   );
 }
